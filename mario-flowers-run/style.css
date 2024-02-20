@@ -1,0 +1,183 @@
+/*
+PAC Desarrollo - Diseño de Interfaces Web - R.Koscinski
+*/
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(320deg, rgb(245, 207, 138, 0.6), rgba(155, 255, 155, 0.95), rgb(221, 84, 106));
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+.envoltorio {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 25px;
+}
+
+.invernadero {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgb(245, 207, 138, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    flex-basis: 650px;
+    height: 500px;
+    padding: 20px 25px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.planta {
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.flor0,
+.flor1,
+.flor2,
+.flor3,
+.flor4,
+.flor5 {
+    margin: 20px;
+    margin-bottom: 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.tubo0,
+.tubo1,
+.tubo2,
+.tubo3,
+.tubo4,
+.tubo5 {
+    margin: 20px;
+    margin-top: 0px;
+    width: 80px;
+}
+
+.desplegable {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(155, 255, 155, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 36px;
+    text-align: center;
+    margin: 1px;
+}
+
+.opcion {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgb(245, 207, 138);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 35px;
+    text-align: center;
+}
+
+.botones {
+    text-align: center;
+}
+
+.iniciar,
+.replantar {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(155, 255, 155, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    margin-top: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.boton1:hover,
+.boton2:hover {
+    background-color: rgb(245, 207, 138);
+    color: inherit
+}
+
+.boton1:active,
+.boton2:active {
+    background: rgb(255, 179, 37);
+}
+
+.puntuaciones {
+    text-align: center;
+}
+
+.tabla {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(155, 255, 155, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.2);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    height: 35px;
+    margin: auto;
+}
