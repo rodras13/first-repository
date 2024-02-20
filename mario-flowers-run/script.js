@@ -1,4 +1,4 @@
-// PAC Desarrollo - Diseño de Interfaces Web - R.Koscinski
+// PAC Desarrollo - Diseño de Interfaces Web
 
 //Lo primero es definir las constantes que nos van a servir para presentar flores distintas
 
